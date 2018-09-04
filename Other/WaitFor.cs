@@ -20,16 +20,15 @@ namespace Anole
         /// <summary>
         /// WaitForSeconds
         /// </summary>
-        /// <param name="r_Time"></param>
+        /// <param name="time"></param>
         /// <returns></returns>
-        public static WaitForSeconds Seconds(float r_Time)
+        public static WaitForSeconds Seconds(float time)
         {
-            if (!waitDic.ContainsKey(r_Time))
+            if (!waitDic.ContainsKey(time))
             {
-                waitDic.Add(r_Time, new WaitForSeconds(r_Time));
+                waitDic.Add(time, new WaitForSeconds(time));
             }
-
-            return waitDic[r_Time];
+            return waitDic[time];
         }
 
     }

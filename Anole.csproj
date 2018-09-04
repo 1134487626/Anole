@@ -53,12 +53,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper\HelpBasic.cs" />
     <Compile Include="Other\DeBug.cs" />
     <Compile Include="Attribute\DontDestroyOnLoadAttribute.cs" />
-    <Compile Include="Sington.cs" />
-    <Compile Include="Other\WaitForHlep.cs" />
+    <Compile Include="MonoBehaviourSington.cs" />
+    <Compile Include="Other\WaitFor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
