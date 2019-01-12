@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Unity3D_2017.2.0p4\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\Unity 2017.3.1p4\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>D:\Unity3D_2017.2.0p4\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
@@ -55,12 +55,10 @@
   <ItemGroup>
     <Compile Include="Other\DeBug.cs" />
     <Compile Include="Attribute\DontDestroyOnLoadAttribute.cs" />
-    <Compile Include="MonoBehaviourSington.cs" />
+    <Compile Include="Sington\SingtonBehaviour.cs" />
     <Compile Include="Other\WaitFor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
